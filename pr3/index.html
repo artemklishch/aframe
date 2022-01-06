@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Entity-Component - Registry</title>
+    <meta name="description" content="Entity-Component - Registry">
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-animation-component@3.2.1/dist/aframe-animation-component.min.js"></script>
+    <script
+        src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-extras.ocean@%5E3.5.x/dist/aframe-extras.ocean.min.js"></script>
+    <script src="https://unpkg.com/aframe-gradient-sky@1.0.4/dist/gradientsky.min.js"></script>
+    <script src="https://unpkg.com/aframe-extras.tube@%5E3.5.x/dist/aframe-extras.tube.min.js"></script>
+</head>
+
+<body>
+    <a-scene log="Hello, Scene!">
+        <a-box log="Hello, Box!"></a-box>
+    </a-scene>
+
+    <script>
+        AFRAME.registerComponent('log', {
+            schema: { type: 'string' },
+
+            init: function () {
+                var stringToLog = this.data;
+                console.log(stringToLog);
+            }
+        });
+    </script>
+</body>
+
+</html>

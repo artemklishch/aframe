@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <!-- Asser Manafment System -->
+        <a-assets>
+            <img id='metal-NRN' src="./textures/t2.jpg">
+            <img id='brick' src="./textures/t3.jpg">
+            <img id='brick-more' src="./textures/t4.jpg">
+        </a-assets>
+
+        <a-box color='#fff' src='./textures/t1.jpg' repeat='1 1' normal-map='#metal-NRN' normal-texture-repeat='1 1'
+            normal-scale='1 -1' roughness='0.5' width='4' height='4' depth='4' position='-2 1.5 -9' scale='-1 1 1'>
+        </a-box>
+        <a-box scale='-1 1 1'
+            material='color: #fff; src: #brick; repeat: 2 2; normal-map: #brick-more; normal-texture-repeat: 2 2; normal-scale: 1 -1;'
+            width='4' height='4' depth='4' position='2 1.5 -9'>
+        </a-box>
+
+        <!-- Sphere -->
+        <a-sphere material='color: #0000AA; shader: standart;' position='-2 1.5 -9' radius='0.5' roughness='0.2'>
+        </a-sphere>
+        <a-sphere material='color: red; shader: flat;' position='-2 1.5 -9' radius='0.5' roughness='0.2'></a-sphere>
+    </a-scene>
+</body>
+
+</html>

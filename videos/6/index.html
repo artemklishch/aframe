@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <a-assets>
+            <img src="./images/g1.jpg" id="g1">
+            <img src="./images/g2.jpg" id="g2">
+        </a-assets>
+
+        <!-- ground -->
+        <a-plane material='color: #999999; src: #g1; repeat: 5 5; normal-map: #g2; normal-texture-repeat: 5 5;'
+            rotation='-90 0 0' scale='10 10 1'>
+        </a-plane>
+    </a-scene>
+</body>
+
+</html>

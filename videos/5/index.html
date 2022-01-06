@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <a-assets>
+            <img src="./images/tree1.jpg" id="tree1" />
+        </a-assets>
+
+        <!-- background image -->
+        <a-image src='#tree1' position='0 1.6 -11' scale='12 9 1'></a-image>
+
+        <!-- primitives -->
+        <a-box position='-1 0.5 -4' color='#AA0000' height='1.5'></a-box>
+
+        <!-- entity box -->
+        <a-entity position='1 0.5 -4' geometry='primitive: box; height: 1.5'
+            material='shader: standard; color:#AA0000;'>
+        </a-entity>
+
+        <!-- entity curved image -->
+        <a-entity position='0 1.5 0'
+            geometry='primitive: cylinder; theta-length:90; theta-start:135; radius:0.707; height:0.833; open-ended:true;'
+            material='shader: flat; color:#fff; side: double; src: #tree1;' scale='-1 1 1'></a-entity>
+
+    </a-scene>
+</body>
+
+</html>
