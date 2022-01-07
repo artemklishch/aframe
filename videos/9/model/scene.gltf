@@ -1,0 +1,791 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        11.553756713867188,
+        11.41617488861084,
+        1.9898419380187988
+      ],
+      "min": [
+        -12.189918518066406,
+        -8.7753200531005859,
+        -3.9042801856994629
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 786384,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.99999845027923584,
+        0.99997454881668091,
+        0.99999898672103882
+      ],
+      "min": [
+        -0.99990731477737427,
+        -0.99997329711914062,
+        -0.94717991352081299
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.99986743927001953,
+        0.99849784374237061,
+        0.99989777803421021,
+        1
+      ],
+      "min": [
+        -0.99995684623718262,
+        -0.97923505306243896,
+        -0.99999922513961792,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9981810450553894,
+        0.99848854541778564
+      ],
+      "min": [
+        0.0014853473985567689,
+        0.0014853473985567689
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 321351,
+      "max": [
+        65531
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1572768,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        11.552958488464355,
+        11.408984184265137,
+        1.9975881576538086
+      ],
+      "min": [
+        -10.50349235534668,
+        -9.9738750457763672,
+        -3.8568768501281738
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2359152,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.99994963407516479,
+        0.99994909763336182,
+        0.99999964237213135
+      ],
+      "min": [
+        -0.99822491407394409,
+        -0.99998211860656738,
+        -0.9750901460647583
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 1048512,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.99872523546218872,
+        0.99840515851974487,
+        0.99999648332595825,
+        1
+      ],
+      "min": [
+        -0.99921858310699463,
+        -0.99999761581420898,
+        -0.99994415044784546,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 524256,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.99848514795303345,
+        0.99846291542053223
+      ],
+      "min": [
+        0.0014853473985567689,
+        0.0014853473985567689
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1285404,
+      "componentType": 5125,
+      "count": 308907,
+      "max": [
+        65531
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 3145536,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        11.246711730957031,
+        11.410027503967285,
+        1.9787931442260742
+      ],
+      "min": [
+        -12.186122894287109,
+        -9.9834079742431641,
+        -3.9011082649230957
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 3931920,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9999845027923584,
+        0.99998724460601807,
+        0.99999964237213135
+      ],
+      "min": [
+        -0.99993747472763062,
+        -0.99993622303009033,
+        -0.9987449049949646
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 2097024,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.99928247928619385,
+        0.99999094009399414,
+        0.99996590614318848,
+        1
+      ],
+      "min": [
+        -0.99996346235275269,
+        -0.99988436698913574,
+        -0.99992823600769043,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1048512,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.99845623970031738,
+        0.99845278263092041
+      ],
+      "min": [
+        0.0014853473985567689,
+        0.0014853473985567689
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2521032,
+      "componentType": 5125,
+      "count": 258516,
+      "max": [
+        65531
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 4718304,
+      "componentType": 5126,
+      "count": 14624,
+      "max": [
+        11.544720649719238,
+        11.408604621887207,
+        2.0272016525268555
+      ],
+      "min": [
+        -12.192619323730469,
+        -9.9734210968017578,
+        -3.8933014869689941
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 4893792,
+      "componentType": 5126,
+      "count": 14624,
+      "max": [
+        0.99497979879379272,
+        0.99984514713287354,
+        0.99995988607406616
+      ],
+      "min": [
+        -0.99957829713821411,
+        -0.99972689151763916,
+        -0.99433833360671997
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 3145536,
+      "componentType": 5126,
+      "count": 14624,
+      "max": [
+        0.99938046932220459,
+        0.9997747540473938,
+        0.99932903051376343,
+        1
+      ],
+      "min": [
+        -0.99985170364379883,
+        -0.9986920952796936,
+        -0.99977916479110718,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1572768,
+      "componentType": 5126,
+      "count": 14624,
+      "max": [
+        0.99850994348526001,
+        0.99851465225219727
+      ],
+      "min": [
+        0.0014853473985567689,
+        0.0014853473985567689
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 3555096,
+      "componentType": 5125,
+      "count": 42717,
+      "max": [
+        14623
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        0
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        -0.69389444589614868,
+        0.0067052147351205349,
+        -0.0069575905799865723,
+        0.72001188993453979
+      ],
+      "min": [
+        -0.69389444589614868,
+        0.0067052147351205349,
+        -0.0069575905799865723,
+        0.72001188993453979
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 4,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.041666667908430099
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        835.5438232421875,
+        623.1683349609375,
+        1561.2978515625
+      ],
+      "min": [
+        0,
+        0,
+        0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.041666667908430099
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        100,
+        100.00000762939453,
+        100
+      ],
+      "min": [
+        99.999992370605469,
+        100,
+        100
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 20,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.041666667908430099
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 16,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        8.1460335366045911e-08,
+        0.0067052147351205349,
+        -1.0896306610606694e-16,
+        1
+      ],
+      "min": [
+        -0.69389444589614868,
+        1.3376211249749304e-09,
+        -0.0069575905799865723,
+        0.72001188993453979
+      ],
+      "type": "VEC4"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 5,
+            "path": "rotation"
+          }
+        }
+      ],
+      "name": "Castle of Chinchilla|Castle of ChinchillaAction",
+      "samplers": [
+        {
+          "input": 20,
+          "interpolation": "LINEAR",
+          "output": 21
+        }
+      ]
+    },
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 5,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "node": 5,
+            "path": "scale"
+          }
+        },
+        {
+          "sampler": 2,
+          "target": {
+            "node": 5,
+            "path": "rotation"
+          }
+        }
+      ],
+      "name": "Castle of Chinchilla|Castle of ChinchillaAction.001",
+      "samplers": [
+        {
+          "input": 22,
+          "interpolation": "LINEAR",
+          "output": 23
+        },
+        {
+          "input": 24,
+          "interpolation": "LINEAR",
+          "output": 25
+        },
+        {
+          "input": 26,
+          "interpolation": "LINEAR",
+          "output": 27
+        }
+      ]
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "GSXNet (https://sketchfab.com/gsxn)",
+      "license": "CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)",
+      "source": "https://sketchfab.com/models/7f43805cd81e4512a4e683c33572e014",
+      "title": "Castle Of Chinchilla Spain"
+    },
+    "generator": "Sketchfab-3.18.7",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 3725964,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1689760,
+      "byteOffset": 3725964,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5069280,
+      "byteOffset": 5415724,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3379520,
+      "byteOffset": 10485004,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 28,
+      "byteOffset": 13864524,
+      "name": "floatBufferViews"
+    },
+    {
+      "buffer": 0,
+      "byteLength": 48,
+      "byteOffset": 13864552,
+      "byteStride": 12,
+      "name": "floatBufferViews"
+    },
+    {
+      "buffer": 0,
+      "byteLength": 48,
+      "byteOffset": 13864600,
+      "byteStride": 16,
+      "name": "floatBufferViews"
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 13864648,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_unlit"
+  ],
+  "images": [
+    {
+      "uri": "textures/Castle_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "Castle",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Castle of Chinchilla_Castle_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Castle of Chinchilla_Castle_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Castle of Chinchilla_Castle_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 11,
+            "POSITION": 10,
+            "TANGENT": 12,
+            "TEXCOORD_0": 13
+          },
+          "indices": 14,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Castle of Chinchilla_Castle_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 16,
+            "POSITION": 15,
+            "TANGENT": 17,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Castle of Chinchilla.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": ""
+    },
+    {
+      "children": [
+        5
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "name": "Castle of Chinchilla",
+      "rotation": [
+        -0.69389444589614868,
+        0.0067052152007818222,
+        -0.0069575905799865723,
+        0.72001188993453979
+      ],
+      "scale": [
+        99.999992370605469,
+        100.00000762939453,
+        100
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "Castle of Chinchilla_Castle_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Castle of Chinchilla_Castle_0"
+    },
+    {
+      "mesh": 2,
+      "name": "Castle of Chinchilla_Castle_0"
+    },
+    {
+      "mesh": 3,
+      "name": "Castle of Chinchilla_Castle_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
+

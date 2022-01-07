@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <a-assets>
+            <img src="./images/f1.jpg" id="f1">
+            <img src="./images/f2.jpg" id="f2">
+            <img src="./images/sky1.png" id='sky1'>
+            <img src="./images/p1.jpg" id="p1">
+        </a-assets>
+
+        <!-- sky -->
+        <!-- <a-sky src="#sky1" rotation='0 64 0'></a-sky> -->
+
+        <!-- <a-plane
+            material='color: #ffffff; src: #f1; repeat: 5000 5000; normal-map: #f2; normal-texture-repeat: 5000 5000;'
+            rotation='-90 0 0' scale='10000 10000 1'></a-plane> -->
+
+        <!-- <a-plane
+            material='color: #00AA00; shader: flat;'
+            rotation='-90 0 0' scale='10000 10000 1'></a-plane> -->
+
+        <!-- 360 panorama -->
+        <a-sky src='#p1'></a-sky>
+
+    </a-scene>
+</body>
+
+</html>

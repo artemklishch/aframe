@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <a-assets>
+            <img src="./images/f1.jpg" id="f1">
+            <img src="./images/f2.jpg" id="f2">
+            <img src="./images/img1.jpg" id='img1'>
+        </a-assets>
+
+        <!-- ground -->
+        <a-plane src='#f1' shader='flat' rotation='-90 0 0' scale='5 5 1'>
+        </a-plane>
+
+        <!-- Cylinder -->
+        <a-cylinder color='#AA0000' radius='0.5' height='2' position='-2 1 0'></a-cylinder>
+
+        <!-- Box -->
+        <a-box color='#00AA00' height='2' depth='4' position='2 1 0'></a-box>
+
+        <!-- Image -->
+        <a-image src='#img1' scale='2 2 1' position='0 1 0'></a-image>
+
+        <!-- Camera -->
+        <!-- <a-camera user-height='1.6' position='0 0 5'></a-camera> -->
+        <a-entity position='0 0 5'>
+            <a-camera user-height='1.6' active='true'></a-camera>
+        </a-entity>
+        <a-entity position='0 0 5'>
+            <a-camera user-height='0.9' active='false'></a-camera>
+        </a-entity>
+        <a-entity position='0 5 5'>
+            <a-camera user-height='0.9' active='false'></a-camera>
+        </a-entity>
+    </a-scene>
+</body>
+
+</html>

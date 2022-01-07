@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@4.2.1/dist/aframe-event-set-component.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <a-camera>
+            <a-entity cursor position='0 0 -1' geometry='primitive: sphere; radius: 0.005;'
+                material='color: #000; shader: flat; opacity: 0.5;'></a-entity>
+        </a-camera>
+
+
+
+
+        <a-box event-set__enter='_event: mouseenter; material.color: #FF0000'
+            event-set__leave='_event: mouseleave; material.color: #AA0000'
+            event-set__tarcol='_event: click; _target: #green; material.color: #00AAFF' color='#AA0000'
+            position='-2 0 -7'>
+        </a-box>
+        <a-box event-set__rescall='_event: click; material.color: #00AA00' id="green" color='#00AA00'
+            position='-2 3 -7'></a-box>
+
+        <a-box event-set__enter='_event: mouseenter; material.color: #FF0000'
+            event-set__leave='_event: mouseleave; material.color: #AA0000'
+            event-set__tarvis='_event: click; _target: #blue; visible: true;' color='#AA0000' position='0 0 -7'></a-box>
+        <a-box id="blue" color='#0000AA' position='0 3 -7' visible='false'
+            event-set__resvis='_event: click; visible: false'></a-box>
+
+        <a-box event-set__enter='_event: mouseenter; material.color: #FF0000'
+            event-set__leave='_event: mouseleave; material.color: #AA0000'
+            event-set__tarpos='_event: click; _target: #yellow; position: 2 3 -5;' color='#AA0000' position='2 0 -7'>
+        </a-box>
+        <a-box id="yellow" color='#FFAA00' position='2 3 -7' event-set__respos='_event: click; position: 2 3 -7'>
+        </a-box>
+    </a-scene>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <a-assets>
+            <img src="./images/sky1.png" id='sky1'>
+            <a-asset-item src='./model/scene.gltf' id="castle"></a-asset-item>
+        </a-assets>
+
+        <a-sky src='#sky1'></a-sky>
+
+        <a-entity position='-1 0 50'>
+            <a-camera></a-camera>
+        </a-entity>
+
+        <a-entity gltf-model='#castle' rotation='15 0 0'></a-entity>
+
+
+    </a-scene>
+</body>
+
+</html>
