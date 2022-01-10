@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@4.2.1/dist/aframe-event-set-component.min.js"></script>
+    <script src="https://unpkg.com/super-hands@^3.0.1/dist/super-hands.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <a-camera>
+            <a-cursor></a-cursor>
+        </a-camera>
+
+        <a-entity position='0 1.8 -1'
+            text='value: Hi there!\n One more text!
+        123433214123433214123433214123433214123433214123433214123433214123433214123433214hello; color: #212121; align: center; wrapCount: 20; width: 0.5;'
+            geometry='primitive: plane; width: auto; height: auto;' material='color: #DDDDDD; shader: flat;'
+            event-set__enter='_event: mouseenter; text.color: #FF0000;'
+            event-set__leave='_event: mouseleave; text.color: #212121;'>
+        </a-entity>
+
+        <a-box color='#FFAA00' position='0 0.5 -4'></a-box>
+    </a-scene>
+</body>
+
+</html>
