@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a-scene embedded arjs="sourceType: webcam;">
+        <a-marker preset="hiro" cursor='rayOrigin: mouse'>
+            <a-box position="0 0 0" scale='2 2 2' material="opacity: 0.5;">
+                <a-animation begin="buttonpressed" dur="750" attribute="scale" to="2 4 4" direction="alternate">
+                </a-animation>
+            </a-box>
+        </a-marker>
+        <a-camera-static />
+    </a-scene>
+</body>
+</html>
